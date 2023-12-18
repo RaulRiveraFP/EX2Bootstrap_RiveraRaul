@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e05bfa18e4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,28 +19,28 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-7 d-none d-md-flex ">
-                    <div class="col-1">Item</div>
-                    <div class="col-1">Item</div>
-                    <div class="col-1">Item</div>
-                    <div class="col-1">Item</div>
+                <div class="col-12 d-none d-md-flex ">
+                    <div class="mx-2 h6 border-top border-secondary border-2">FENDER.COM</div>
+                    <div class="mx-2 h6">PLAY</div>
+                    <div class="mx-2 h6">TUNE</div>
+                    <div class="mx-2 h6">BEGINNERS</div>
                 </div>
                 
                 <div class="row d-flex col-12">
                     <div class="col-4 col-md-3">
-                        <img src="ruta-al-logo" alt="Logo" class="img-fluid">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAsCAMAAABorteMAAAAflBMVEX////tHC7sAADsACDsABLsABztFirsAA/tDybsABjsAAvsABX++Pj//Pz96+z4vb/72dryeX72oqb98PD85OX5ysz4uLrzhorxam/zfoP5w8X2qazvP0nwXGP1m5761NX3sLPvTlf0kJTtKjXuN0LvRU/wVl3ycnfxY2vuMjyGVoa6AAAE50lEQVRYhb1X65qiMAwlLW3TgqggoKKgeH//F9yk6I6OjLdvZ/NLIW1uJ8khCH5J8jVOPztYT3eL4/BDs7FFEKO3j80PxkjUGkX5md3KgsY3z2Q1GNQydMbCJ06zbDXI91xOZqHS6DblfJKQ12+ePstIkMeTNw5kMydBu33e/T0iHj+xW0rA9Rv6bSQBwkV++V9LvfvErqJbXofkEEgfw+rrCdl9x+2L5AY0vKqc7I0GMPvs6tkYP+rCMYJsX9RNBQJokd48XGs5+8Auocq9hqpsFwGAhFvtAWhV/XDigeQh4P4lzSEHC+57Tqkdorz3wEOZyRdRNabEUPesvj9PFYisR/+JKNBy8FwtWyg2q5q7N0t8HZZf0hiQ4+dqI+QcIyR3b2IFeOh+Tt4Iu6U0P69O4TQjahvfv5ob8LCapDtRv273pLV8qjTk0oLc9dWD8GGHo3YrlFZpz/t+mYQ/pDk9+NiaalUEAXC0qh/1/E46qQHVG0N+ZfvTXIuIizaaF8WkCKY0kKP+2T934PEm8Ji+sVuWCFHPYwKLn/XVICXTQbwJ+3d7c7RcALH+ZvMefrcywL9gPBsc+RsaB37mVsGspngJWH1JKRaOUa5mHY6zpqjSNK3b8elRQ09if380946n5fhw2G+s8dxhHna7PG+aIP9hCJbCak3F1Rv/d7QWoVUsxH2+282qqmuF+CCM2E1qCYIdR0faJPpMeEbneINhVf1gNhOAZnEkquKXwkigtmRXsrhvWEiFst6VRNGuj9xpqfn6ldAQmTCic5HwA2lCjRM+Ji+ZYMJBjjtfglLqxZzyXLdlWRa3qi23oc/rCcGM86I4aVt0/CqfNPlwVRVdOoiCANh9z5j4kiEDgdpf+66urbyfGrFPd+W7n3dHbcFwj2fOj3Syq28KkoQ6Ylahnw0+ygt27R+DUrtxnabtYbnw9DKrF0JQwhsBHAXt2gFxXl+B3Oht0OXZLcarPDkHuEfMKYMg5k/stpc0k+EZCscFRmReEM+cQuaLA2K7NaOezLkzf6xUB4rhyUmUygh7Ylfr0Pnsy8OPBs+irinSoFlNkUaIOwyCOaELNgT20wndnMrB7dpKHyaX0Z4h0LQ7noVa0P9C4JIAGp4b5IEMo2/UeYl2mya8q7WYBSmlTGtVBjGCWgXB9ELEluj+7lOe1ELXvAR0mHCun+8p8tVdfyocVMiwaTZSIh0+8FThEKkthb/yDIaTFpeJVoVgSr5jJYCDJtW+AXojpKMXV/9z4eMpHYoxg3zLKeSKUl6ovByvh9Wkc4MlFdClvHTgmF0SewlHQb55tFIpHns9VaiHt02NCpXPVMzhRpyAynqGXSuw7M+azhG1ygjhNKl4cI0WFroNQDpgZRQ9GB6Joe64bnHqeuo/bXfdQyKagD4fBeGAJiV33X6Ur7mtsJ05kbBdPFZLobVY+UNZSCtV29OD0UFmbnd37pnf1+aahmrjh0pGQ1SJZTAj7mpCZQxlQkou8piYMSUI3e6y0OJSC3iU5fj+AzQ1odl+oXHQtmeG0qyt3NPNM2FMOE6yqYiskaxJeyI0dvoGEaZK3KDKy+TJ5s3yxruSDFdnU0mev/X1HFOVbPFc718LAy/8/2YZiS9/zv1DSRlVz2jUL4hvvP9vdsXh3n8r/boQYZF3TfQfpD7h8ter+wc9ckTnuGGpnwAAAABJRU5ErkJggg==" alt="Logo" class="img-fluid">
                     </div>
             
-                    <div class="col-4 d-block d-sm-none"></div>
-                    <div class="col-4 col-md-1 d-block d-lg-none">
-                        ICONO
+                    <div class="col-4 d-flex justify-content-center align-center d-sm-none"></div>
+                    <div class="col-4 col-md-1 d-flex justify-content-center align-center d-md-none">
+                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                     </div>
                     <div class="col-12 col-md-6">
-                         input busqueda 
+                        <input type="search" class="form-control" placeholder="Search">
                     </div>
             
-                    <div class="col-4 col-md-1 d-none d-lg-block">
-                        ICONO
+                    <div class="col-4 col-md-1 d-none d-md-flex justify-content-center align-center">
+                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                     </div>
                 </div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -87,129 +88,139 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" style="background-image: url('https://stuff.fendergarage.com/images/G/i/2/Web_Fender_1003_23_FenderTonemasterPro_NPI_Launch_HPS_DESKTOP@2x.jpg'); background-position: center; background-size: cover;">
                 <div class="col-12 col-xl-4 d-flex flex-column justify-content-center text-center text-xl-left" style="height: 100vh;">
-                    <p>subtitulo</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nam, quis illo recusandae praesentium eveniet reprehenderit commodi consequatur similique nihil adipisci dolore totam magni accusamus consectetur facilis sequi odio quos!</p>
-                    <a href="btn">Botón</a>
+                    <p class="font-weight-bold text-white h4">PRESENTANDO EL</p>
+                    <p class="font-weight-bold text-white h2">SERIE SQUIER SONIC@</p>
+                    <p class="font-weight-bold text-white h6">Libera tu potencial con excelentes especificaciones <br>  cuerpos icónicos y acabados vibrantes.
+                    </p>
+                    <a href="#" class="btn btn-light mx-auto" style="width: fit-content;">Ver ahora</a>
                 </div>
             </div>
             
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-12">
-                    <h2>Categorías principales</h2>
+                    <h2 class="h1">Categorías principales</h2>
                 </div>
-                <div class="col-6 col-md-3"><img src="" alt="">imagen<p>Texto</p></div>
-                <div class="col-6 col-md-3"><img src="" alt="">imagen<p>Texto</p></div>
-                <div class="col-6 col-md-3"><img src="" alt="">imagen<p>Texto</p></div>
-                <div class="col-6 col-md-3"><img src="" alt="">imagen<p>Texto</p></div>
-                <div class="col-12 col-md-6">
-                    <p>texto</p>
-                    <a href="">cta</a>
+                <div class="col-6 col-md-3"><img class="w-100" src="https://stuff.fendergarage.com/images/r/b/e/electrics-category-tile-v3@2x.jpg" alt=""><p class="font-weight-bold text-black">Guitarras Eléctricas</p></div>
+                <div class="col-6 col-md-3"><img class="w-100" src="https://stuff.fendergarage.com/images/N/0/8/acoustics-category-tile-v2@2x.jpg" alt=""><p class="font-weight-bold text-black">Guitarras Acústicas</p></div>
+                <div class="col-6 col-md-3"><img class="w-100" src="https://stuff.fendergarage.com/images/Q/4/A/squier-category-tile-v2@2x.jpg" alt=""><p class="font-weight-bold text-black">Guitarras Squier</p></div>
+                <div class="col-6 col-md-3"><img class="w-100" src="https://stuff.fendergarage.com/images/a/f/t/amps-category-tile-v2@2x.jpg" alt=""><p class="font-weight-bold text-black">Amplificadores</p></div>
+                <div class="col-12 mt-5 col-md-5 d-flex flex-column justify-content-center" style="background-image: url('https://stuff.fendergarage.com/images/m/D/S/Web_Fender_08_22_23_California_Series_Update_NPI_Launch_SHOPCARD_FINAL@2x.jpg'); background-position: center; background-size: cover; min-height: 200px;">
+                    <p class="text-white">Serie California</p>
+                    <a href="" class="text-white ">Descubrir</a>
                 </div>
-                <div class="col-12 col-md-6">
-                    <p>texto</p>
-                    <a href="">cta</a>
+                <div class="col-12 mt-5 offset-md-2 col-md-5 d-flex flex-column justify-content-center" style="background-image: url('https://stuff.fendergarage.com/images/M/I/z/Web_Fender_0919_23_VinteraIISeries_NPI_Launch_SHOPCARD_1280x846@2x.jpg'); background-position: center; background-size: cover; min-height: 200px;">
+                    <p class="text-white">Novedades 2023</p>
+                    <a href="" class="text-white ">Descubrir</a>
                 </div>
-                <div class="col-12">Artículos en tendencia</div>
+                <div class="col-12 h1 mt-5">Artículos en tendencia</div>
                 <div class="col-12 d-flex">
                     <div class="card col-12 col-md-3">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://stuff.fendergarage.com/images/l/T/1/Web_Fender_10_20_23_Vintera_II_Best_of_the_50s_feat_Madison_Cunningham_Article_PROJECT_NAME_960x1338@2x.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Instrumentos</h5>
+                            <p class="card-text">
+                                Serie Vintera II: Descubre junto a Madison Cunningham las mejores canciones de los años 50 
+                            </p>
+                            <a href="#" class="text-dark">Leer</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-3 d-none d-md-block border-none">
+                        <img src="https://stuff.fendergarage.com/images/R/y/3/Web_Fender_101923_LearnHowToPlayEnterSandmanByMetallica_960x1338@2x.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Canciones</h5>
+                        <p class="card-text">Serie Vintera II: Descubre junto a Madison Cunningham las mejores canciones de los años 50 </p>
+                        <a href="#" class="text-dark">Leer</a>
                         </div>
                     </div>
                     <div class="card col-md-3 d-none d-md-block">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://stuff.fendergarage.com/images/K/e/Y/1_CAFUNE_FINAL_FEEDTILE@2x.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Artistas Fender</h5>
+                        <p class="card-text">Serie Vintera II: Descubre junto a Madison Cunningham las mejores canciones de los años 50 </p>
+                        <a href="#" class="text-dark">Leer</a>
                         </div>
                     </div>
                     <div class="card col-md-3 d-none d-md-block">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://stuff.fendergarage.com/images/o/F/l/3_Finishing_School_Article@2x.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3 d-none d-md-block">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Behind</h5>
+                        <p class="card-text">Serie Vintera II: Descubre junto a Madison Cunningham las mejores canciones de los años 50 </p>
+                        <a href="#" class="text-dark">Leer</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="bg-dark text-white mt-5">
         <div class=" col-5 col-md-3">
-            <img src="" alt="">Logo
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAsCAMAAABorteMAAAAflBMVEX////tHC7sAADsACDsABLsABztFirsAA/tDybsABjsAAvsABX++Pj//Pz96+z4vb/72dryeX72oqb98PD85OX5ysz4uLrzhorxam/zfoP5w8X2qazvP0nwXGP1m5761NX3sLPvTlf0kJTtKjXuN0LvRU/wVl3ycnfxY2vuMjyGVoa6AAAE50lEQVRYhb1X65qiMAwlLW3TgqggoKKgeH//F9yk6I6OjLdvZ/NLIW1uJ8khCH5J8jVOPztYT3eL4/BDs7FFEKO3j80PxkjUGkX5md3KgsY3z2Q1GNQydMbCJ06zbDXI91xOZqHS6DblfJKQ12+ePstIkMeTNw5kMydBu33e/T0iHj+xW0rA9Rv6bSQBwkV++V9LvfvErqJbXofkEEgfw+rrCdl9x+2L5AY0vKqc7I0GMPvs6tkYP+rCMYJsX9RNBQJokd48XGs5+8Auocq9hqpsFwGAhFvtAWhV/XDigeQh4P4lzSEHC+57Tqkdorz3wEOZyRdRNabEUPesvj9PFYisR/+JKNBy8FwtWyg2q5q7N0t8HZZf0hiQ4+dqI+QcIyR3b2IFeOh+Tt4Iu6U0P69O4TQjahvfv5ob8LCapDtRv273pLV8qjTk0oLc9dWD8GGHo3YrlFZpz/t+mYQ/pDk9+NiaalUEAXC0qh/1/E46qQHVG0N+ZfvTXIuIizaaF8WkCKY0kKP+2T934PEm8Ji+sVuWCFHPYwKLn/XVICXTQbwJ+3d7c7RcALH+ZvMefrcywL9gPBsc+RsaB37mVsGspngJWH1JKRaOUa5mHY6zpqjSNK3b8elRQ09if380946n5fhw2G+s8dxhHna7PG+aIP9hCJbCak3F1Rv/d7QWoVUsxH2+282qqmuF+CCM2E1qCYIdR0faJPpMeEbneINhVf1gNhOAZnEkquKXwkigtmRXsrhvWEiFst6VRNGuj9xpqfn6ldAQmTCic5HwA2lCjRM+Ji+ZYMJBjjtfglLqxZzyXLdlWRa3qi23oc/rCcGM86I4aVt0/CqfNPlwVRVdOoiCANh9z5j4kiEDgdpf+66urbyfGrFPd+W7n3dHbcFwj2fOj3Syq28KkoQ6Ylahnw0+ygt27R+DUrtxnabtYbnw9DKrF0JQwhsBHAXt2gFxXl+B3Oht0OXZLcarPDkHuEfMKYMg5k/stpc0k+EZCscFRmReEM+cQuaLA2K7NaOezLkzf6xUB4rhyUmUygh7Ylfr0Pnsy8OPBs+irinSoFlNkUaIOwyCOaELNgT20wndnMrB7dpKHyaX0Z4h0LQ7noVa0P9C4JIAGp4b5IEMo2/UeYl2mya8q7WYBSmlTGtVBjGCWgXB9ELEluj+7lOe1ELXvAR0mHCun+8p8tVdfyocVMiwaTZSIh0+8FThEKkthb/yDIaTFpeJVoVgSr5jJYCDJtW+AXojpKMXV/9z4eMpHYoxg3zLKeSKUl6ovByvh9Wkc4MlFdClvHTgmF0SewlHQb55tFIpHns9VaiHt02NCpXPVMzhRpyAynqGXSuw7M+azhG1ygjhNKl4cI0WFroNQDpgZRQ9GB6Joe64bnHqeuo/bXfdQyKagD4fBeGAJiV33X6Ur7mtsJ05kbBdPFZLobVY+UNZSCtV29OD0UFmbnd37pnf1+aahmrjh0pGQ1SJZTAj7mpCZQxlQkou8piYMSUI3e6y0OJSC3iU5fj+AzQ1odl+oXHQtmeG0qyt3NPNM2FMOE6yqYiskaxJeyI0dvoGEaZK3KDKy+TJ5s3yxruSDFdnU0mev/X1HFOVbPFc718LAy/8/2YZiS9/zv1DSRlVz2jUL4hvvP9vdsXh3n8r/boQYZF3TfQfpD7h8ter+wc9ckTnuGGpnwAAAABJRU5ErkJggg==" alt="Logo" class="img-fluid">
         </div>
-        <div class="col-12 d-flex">
+        <div class="col-12 d-flex p-2">
             <div class="col-12 col-md-4">
-                <h4>Titulo</h4>
-                <p>texto</p>
+                <h4>Don't miss out</h4>
+                <p>Be the first to know about new products, featured content, exclusive offers and giveaways.</p>
             </div>
-            <div class="col-12 col-md-8">
-                input newsletter
-            </div>
-        </div>
-        <div class="col-12 d-flex flex-wrap">
-            <div class="col-6 col-md-3">titulo
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-2">titulo
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-3">titulo
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-3">titulo
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
-            </div>
-            <div class="col-md-1 col-6">titulo
-                <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                </ul>
+            <div class="col-12 col-md-8 d-flex">
+                <input type="text" class="form-control col-8 col-md-6" placeholder="ENTER EMAIL ADDRESS">
             </div>
         </div>
-        <div class="col-12 text-center">
-            <div class="d-md-flex col-md-12">
-                <p class="col-md-1">item</p>
-                <p class="col-md-1">item</p>
-                <p class="col-md-1">item</p>
-                <p class="col-md-1">item</p>
-                <p class="col-md-1">item</p>
+        <div class="col-12 d-flex flex-wrap p-2">
+            <div class="col-5 col-md-2 mx-2">Empresa
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Trabajar en Fender</li>
+                    <li>Prensa</li>
+                </ul>
             </div>
-            <p>copyright</p>
+            <div class="col-5 col-md-2 mx-2">Empresa
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Trabajar en Fender</li>
+                    <li>Prensa</li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-2 mx-2">Empresa
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Trabajar en Fender</li>
+                    <li>Prensa</li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-2 mx-2">Empresa
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Trabajar en Fender</li>
+                    <li>Prensa</li>
+                </ul>
+            </div>
+            <div class="col-md-2 mx-2 col-5">Empresa
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Trabajar en Fender</li>
+                    <li>Prensa</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 ">
+            <div class="d-md-flex col-md-12 text-center">
+                <p class="mx-2">Política de privacidad</p>
+                <p class="mx-2">Condiciones de uso</p>
+                <p class="mx-2">transparencia en fabricación</p>
+                <p class="mx-2">Declaración de accesibilidad</p>
+                <p class="mx-2">Ley de competencia</p>
+            </div>
+            <p>2023. Fender Musical Instruments Corporation. Todos los derechos reservados.
+            </p>
         </div>
     </footer>
 </body>
